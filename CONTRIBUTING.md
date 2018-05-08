@@ -1,4 +1,4 @@
-Thanks for showing interest in development of PyDelhi Conf app.
+Thanks for showing interest in development of Python Nordeste Conference app.
 The app requires many modifications as listed in the [README](./README.md).
 
 
@@ -17,6 +17,4 @@ Please stick to the following guidelines for making any contributions:
 6. Document wherever necessary.
 
 
-Questions?
-
-Ask on [mailing list](mailto: ncr-python.in@python.org) or [telegram](tg://join?invite=B90LyQVj1nswbAk2x4tJ6g).
+Questions? Open a Issue.

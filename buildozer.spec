@@ -1,16 +1,16 @@
 [app]
 
 # (str) Title of your application
-title = PyDelhi Conf 2017
+title = Python Nordeste 2018
 
 # (str) Package name
 package.name = conference
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.pydelhiconf
+package.domain = org.pythonnordeste
 
 # (str) Source code where the main.py live
-source.dir = ./pydelhiconf
+source.dir = ./conference
 
 # (list) Source files to include (let empty to include all the files)
 source.include_exts = py,png,jpg,kv,atlas,vs,fs,json,gif
@@ -25,7 +25,7 @@ source.include_exts = py,png,jpg,kv,atlas,vs,fs,json,gif
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 0.3
+version = 0.2
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]

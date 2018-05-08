@@ -1,30 +1,32 @@
-PyDelhi Conf 2017 Application 
-=============================
+Python Nordeste Conference 2018 Application 
+===========================================
 
+forked from https://github.com/pydelhi/pydelhi_mobile
 
-> Mobile App for PyDelhi Conf 2017
+> Mobile App for Python Nordeste Conference 2018
 
-![Alt text](screen.png?raw=true "Optional Title")
+![Screenshots from app](screen.png?raw=true "Sreenshots from app")
 
 ## Kivy Installation:
-- https://kivy.org/docs/installation/installation.html
+- install a Linux ready-development VM on Oracle Virtualbox
+  - on installing Virtualbox: http://
+  - on dowloading the VM: http://
+  - on importing an Apliance in Virtualbox: http://
+  - start the VM and voila... ready to develop (user: kivy, password: kivy)
+  - will use Python3.6.3, Kivy 1.10.0, Cython 0.23, Pillow 4.3.0, Buildozer (see installed.txt)
+  - plus, if you like: PyCharm CE
 
 ## Make sure you build the theme before using the app.
-   - Make sure you have `pillow` installed. `pip install pillow --user`
-   - Paste/change the image in PyDelhiConf/tools/theming
-   - Change your directory to PyDelhiConf
+   - clone this repository: `git clone https://github.com/pug-pb/pyne2018app.git`
+   - Paste/change the image in pyne2018app/tools/theming
+   - Change your directory to pyne2018app
    - Run command ``make theming`` 
 
 ### To test install kivy and run the following::
+    $ make run
 
-    $ python pydelhiconf/main.py -m screen:droid2,portrait -m inspector
-
-### Help on screens
-- https://kivy.org/docs/api-kivy.modules.screen.html
-
-
-This command will aggregate all the png images in your file to one atlas
-from which the images are loaded.
+This command will aggregate all the png (pyne2018app/tools/theming/ images) in your file to one atlas
+from which the images are loaded and run the app.
 
 ## to make apk **prefer linux**
 
@@ -34,9 +36,7 @@ from which the images are loaded.
 3. Connect your mobile, enable usb debugging, Then goto pydelhiconf
    folder and type `make apk`
 
-Link to a existing vm that can be re-used will be added for convenience.
-
-## to make ipa for ios **
+## to make ipa for ios **(not tested)**
 
 1. Install XCode with latest updates & latest command line tools
 2. pip install buildozer
@@ -76,7 +76,7 @@ Take special note of the names::
     The `name: ScreenSponsor`, in this same as the class name `class ScreenSponsor(...)`.
 
 
-Step 2: Save the file as `screensponsor.py` in the folder `<PyDelhiConf/pydelhiconf/uix/screens>`. Take note to name the file same as the class name,  in our case `ScreenSponsor` in lowercase with .py appended at end.
+Step 2: Save the file as `screensponsor.py` in the folder `<pyne2018app/conference/uix/screens>`. Take note to name the file same as the class name,  in our case `ScreenSponsor` in lowercase with .py appended at end.
 
 That's it. Now to load this screen::
 

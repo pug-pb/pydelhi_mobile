@@ -1,0 +1,65 @@
+{
+  "0.0.1": [
+    {
+      "name": "Vox Tecnologia",
+      "type": "Gold",
+      "website": "http://www.voxtecnologia.com.br/",
+      "logo": "data/logo/vox.png",
+      "about": "http://www.voxtecnologia.com.br/"
+    },
+    {
+      "name": "Globo.com",
+      "type": "Gold",
+      "website": "http://www.globo.com/",
+      "logo": "data/logo/globo.png"
+    },
+    {
+      "name": "Python Foundation",
+      "type": "Gold",
+      "website": "https://www.python.org/psf-landing/",
+      "logo": "data/logo/psf.png"
+    },
+    {
+      "name": "Vinta",
+      "type": "Gold",
+      "website": "https://www.vinta.com.br/",
+      "logo": "data/logo/vinta.png"
+    },
+    {
+      "name": "Evolux",
+      "type": "Silver",
+      "website": "https://www.evolux.net.br/",
+      "logo": "data/logo/evolux.png"
+    },
+    {
+      "name": "LabCodes",
+      "type": "Silver",
+      "website": "https://www.labcodes.com.br/",
+      "logo": "data/logo/labcodes.png"
+    },
+    {
+      "name": "Editora Novatec",
+      "type": "Apoio",
+      "website": "http://www.novatec.com.br",
+      "logo": "data/logo/novatec.png"
+    },
+    {
+      "name": "castanhola.tv",
+      "type": "Apoio",
+      "website": "http://castanhola.tv/",
+      "logo": "data/logo/castanhola.png"
+    },
+    {
+      "name": "Jetbrains",
+      "type": "Apoio",
+      "website": "http://www.jetbrains.com",
+      "logo": "data/logo/jetbrains.png"
+    },
+    {
+      "name": "UNIFACISA",
+      "type": "Correalização",
+      "website": "http://www.cesed.br/",
+      "logo": "data/logo/unifacisa.png"
+    }
+  ]
+}
