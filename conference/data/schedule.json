@@ -19,7 +19,7 @@
         },
         {
           "talk_id": "03",
-          "title": "Linux & Python 101 (Newton Galiza)",
+          "title": "[Oficina] Linux & Python 101 (Newton Galiza)",
           "start_time": "08:45",
           "end_time": "10:15",
           "track": "3"
@@ -47,7 +47,7 @@
         },
         {
           "talk_id": "07",
-          "title": "Linux & Python 101 (Newton Galiza)",
+          "title": "[Oficina] Linux & Python 101 (Newton Galiza)",
           "start_time": "10:30",
           "end_time": "12:00",
           "track": "3"
@@ -68,14 +68,14 @@
         },
         {
           "talk_id": "10",
-          "title": "Domain Driven Design (DDD) aplicado em Python para ambientes ágeis (Jhonatan Teixeira)",
+          "title": "[Oficina] Domain Driven Design (DDD) aplicado em Python para ambientes ágeis (Jhonatan Teixeira)",
           "start_time": "13:30",
           "end_time": "15:30",
           "track": "2"
         },
         {
           "talk_id": "11",
-          "title": "Introdução à ciência de dados com Python (Prof. Dr. Adriano A. Santos)",
+          "title": "[Oficina] Introdução à ciência de dados com Python (Prof. Dr. Adriano A. Santos)",
           "start_time": "13:30",
           "end_time": "15:30",
           "track": "3"
@@ -96,14 +96,14 @@
         },
         {
           "talk_id": "14",
-          "title": "Domain Driven Design (DDD) aplicado em Python para ambientes ágeis (Jhonatan Teixeira)",
+          "title": "[Oficina] Domain Driven Design (DDD) aplicado em Python para ambientes ágeis (Jhonatan Teixeira)",
           "start_time": "15:45",
           "end_time": "17:00",
           "track": "2"
         },
         {
           "talk_id": "15",
-          "title": "Introdução à ciência de dados com Python (Prof. Dr. Adriano A. Santos)",
+          "title": "[Oficina] Introdução à ciência de dados com Python (Prof. Dr. Adriano A. Santos)",
           "start_time": "15:45",
           "end_time": "17:00",
           "track": "3"
@@ -321,21 +321,21 @@
         },
         {
           "talk_id": "45",
-          "title": "Raspagem e Análise de Dados para Jornalistas (Fernando Masanori)",
+          "title": "[Oficina] Raspagem e Análise de Dados para Jornalistas (Fernando Masanori)",
           "start_time": "08:45",
           "end_time": "10:15",
           "track": "6"
         },
         {
           "talk_id": "46",
-          "title": "Usando BDs NoSQL com Python (Luiz Cláudio)",
+          "title": "[Oficina] Usando BDs NoSQL com Python (Luiz Cláudio)",
           "start_time": "08:45",
           "end_time": "10:15",
           "track": "7"
         },
         {
           "talk_id": "47",
-          "title": "Introdução ao machine learning em saúde (Hugo Soares)",
+          "title": "[Oficina] Introdução ao machine learning em saúde (Hugo Soares)",
           "start_time": "08:45",
           "end_time": "10:15",
           "track": "8"
@@ -349,21 +349,21 @@
         },
         {
           "talk_id": "49",
-          "title": "Raspagem e Análise de Dados para Jornalistas (Fernando Masanori)",
+          "title": "[Oficina] Raspagem e Análise de Dados para Jornalistas (Fernando Masanori)",
           "start_time": "10:30",
           "end_time": "12:00",
           "track": "6"
         },
         {
           "talk_id": "50",
-          "title": "Usando BDs NoSQL com Python (Luiz Cláudio)",
+          "title": "[Oficina] Usando BDs NoSQL com Python (Luiz Cláudio)",
           "start_time": "10:30",
           "end_time": "12:00",
           "track": "7"
         },
         {
           "talk_id": "51",
-          "title": "Introdução ao machine learning em saúde (Hugo Soares)",
+          "title": "[Oficina] Introdução ao machine learning em saúde (Hugo Soares)",
           "start_time": "10:30",
           "end_time": "12:00",
           "track": "8"
@@ -377,21 +377,21 @@
         },
         {
           "talk_id": "53",
-          "title": "Raspagem e Análise de Dados para Jornalistas (Fernando Masanori)",
+          "title": "[Oficina] Raspagem e Análise de Dados para Jornalistas (Fernando Masanori)",
           "start_time": "13:30",
           "end_time": "15:30",
           "track": "6"
         },
         {
           "talk_id": "54",
-          "title": "TDD com PyTest. (Luciano Ramalho)",
+          "title": "[Oficina] TDD com PyTest. (Luciano Ramalho)",
           "start_time": "13:30",
           "end_time": "15:30",
           "track": "7"
         },
         {
           "talk_id": "55",
-          "title": "Introdução a Data Science com Pandas e Scikit-learn (Gileno)",
+          "title": "[Oficina] Introdução a Data Science com Pandas e Scikit-learn (Gileno)",
           "start_time": "13:30",
           "end_time": "15:30",
           "track": "8"
@@ -405,21 +405,21 @@
         },
         {
           "talk_id": "57",
-          "title": "Raspagem e Análise de Dados para Jornalistas (Fernando Masanori)",
+          "title": "[Oficina] Raspagem e Análise de Dados para Jornalistas (Fernando Masanori)",
           "start_time": "15:45",
           "end_time": "17:45",
           "track": "6"
         },
         {
           "talk_id": "58",
-          "title": "TDD com PyTest. (Luciano Ramalho)",
+          "title": "[Oficina] TDD com PyTest. (Luciano Ramalho)",
           "start_time": "15:45",
           "end_time": "17:45",
           "track": "7"
         },
         {
           "talk_id": "59",
-          "title": "Introdução a Data Science com Pandas e Scikit-learn (Gileno)",
+          "title": "[Oficina] Introdução a Data Science com Pandas e Scikit-learn (Gileno)",
           "start_time": "15:45",
           "end_time": "17:45",
           "track": "8"
@@ -680,7 +680,7 @@
         },
         {
           "talk_id": "96",
-          "title": "Sistemas de Recomendação da matemática a prática. (Thais Viana)",
+          "title": "[Keynote] Sistemas de Recomendação da matemática a prática. (Thais Viana)",
           "start_time": "09:35",
           "end_time": "10:10",
           "track": "11"
@@ -708,7 +708,7 @@
         },
         {
           "talk_id": "100",
-          "title": "Como ajudei os jornalistas a usarem programação durante três meses dentro da Folha de São Paulo. (Fernando Masanori)",
+          "title": "[Keynote] Como ajudei os jornalistas a usarem programação durante três meses dentro da Folha de São Paulo. (Fernando Masanori)",
           "start_time": "10:40",
           "end_time": "11:15",
           "track": "11"
@@ -743,14 +743,14 @@
         },
         {
           "talk_id": "105",
-          "title": "Serenata de Amor: Ciência de dados no mundo real. (Jessica Temporal) ",
+          "title": "[Keynote] Serenata de Amor: Ciência de dados no mundo real. (Jessica Temporal) ",
           "start_time": "14:05",
           "end_time": "14:40",
           "track": "11"
         },
         {
           "talk_id": "106",
-          "title": "Além dos Paradigmas: dicas para escrever código Pythônico. (Luciano Ramalho) ",
+          "title": "[Keynote] Além dos Paradigmas: dicas para escrever código Pythônico. (Luciano Ramalho) ",
           "start_time": "14:40",
           "end_time": "15:15",
           "track": "11"
