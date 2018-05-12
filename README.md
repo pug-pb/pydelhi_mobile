@@ -8,17 +8,18 @@ forked from https://github.com/pydelhi/pydelhi_mobile
 ![Screenshots from app](screen.png?raw=true "Sreenshots from app")
 
 ## Kivy Installation:
-- install a Linux ready-development VM on Oracle Virtualbox
-  - on installing Virtualbox: http://
-  - on dowloading the VM: http://
-  - on importing an Apliance in Virtualbox: http://
-  - start the VM and voila... ready to develop (user: kivy, password: kivy)
-  - will use Python3.6.3, Kivy 1.10.0, Cython 0.23, Pillow 4.3.0, Buildozer (see installed.txt)
-  - plus, if you like: PyCharm CE
+- install a XUbuntu Linux VM on Oracle Virtualbox (both Windows and Linux)
+  - on downloading Virtualbox: https://www.virtualbox.org/wiki/Downloads
+  - on downloading XUbuntu .iso: https://xubuntu.org/download/
+  - on installing Virtualbox and creating a VM: https://www.google.com.br/search?q=installing+Virtualbox+and+creating+a+VM&oq=installing+Virtualbox+and+creating+a+VM
+  - start the VM and download **kivy-dev-linux.sh** and **need-install.txt** files from this repository
+  - open a terminal and run **kivy-dev-linux.sh** (required **need-install.txt** in the same directory)
+  - will install Python3.6.3 (miniconda), Kivy 1.10.0, Cython 0.23, Pillow 4.3.0, Buildozer (see need-install.txt)
+  - plus, if you like, link to download PyCharm CE in the "kivy-dev-linux.sh" file
 
 ## Make sure you build the theme before using the app.
    - clone this repository: `git clone https://github.com/pug-pb/pyne2018app.git`
-   - Paste/change the image in pyne2018app/tools/theming
+   - Paste/change your images in pyne2018app/tools/theming
    - Change your directory to pyne2018app
    - Run command ``make theming`` 
 

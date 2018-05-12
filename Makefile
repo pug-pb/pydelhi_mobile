@@ -1,4 +1,6 @@
-PYTHON = python3
+# adapt to your preferred python version
+# using a miniconda virtualenv with Python 3.6, but naming python
+PYTHON = python
 # needs kivy installed or in PYTHONPATH
 
 .PHONY: theming apk clean
