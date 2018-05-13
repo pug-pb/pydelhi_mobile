@@ -1,13 +1,19 @@
 # -*- coding: utf8 -*-
-'''App for Python Nordeste Conf 2018:
+"""
+    Conference App for Python Nordeste 2018
+    Github Repo: http://github.com/pug-pb/pyne2018app
+    Author: Hildeberto Magalhães (hildeberto@gmail.com)
 
-Github Repo: http://github.com/pug-pb/pyne2018app
-'''
-import os, sys
+    Inspired by and adapted from the following:
+    PyDelhi Conf App https://github.com/pydelhi/pydelhi_mobile
+"""
+import os
+import sys
 from os.path import abspath, dirname
+
 from kivy.app import App
-from kivy.properties import ListProperty, StringProperty, ObjectProperty
-import webbrowser
+from kivy.properties import StringProperty
+
 import utils.colors as colors
 
 __version__ = '1.0.0'
@@ -62,7 +68,6 @@ class ConferenceApp(App):
         # let's load our first screen
         self.load_screen('StartupScreen')
 
-
     def go_back_in_history(self):
         try:
             # go back to previous screen
@@ -86,12 +91,12 @@ class ConferenceApp(App):
             pause_app()
 
     def load_screen(self, screen, manager=None, store_back=True):
-        '''Load the provided screen:
+        """Load the provided screen:
         arguments::
             `screen`: is the name of the screen to be loaded
             `manager`: the manager to load this screen, this defaults to
             the main class.
-        '''
+        """
         store_back = False if screen == self.start_screen else store_back
 
         manager = manager or self.root
@@ -120,6 +125,7 @@ class ConferenceApp(App):
 
         return getattr(self, module_path)
 
-# Check if app is started as main and only then insitantiate the App class.
+
+# Check if app is started as main and only then instantiate the App class.
 if __name__ == '__main__':
     ConferenceApp().run()

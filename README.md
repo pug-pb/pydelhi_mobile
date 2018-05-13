@@ -1,7 +1,7 @@
 Python Nordeste Conference 2018 Application 
 ===========================================
 
-forked from https://github.com/pydelhi/pydelhi_mobile
+Inspired and adapted from https://github.com/pydelhi/pydelhi_mobile
 
 > Mobile App for Python Nordeste Conference 2018
 
