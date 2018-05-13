@@ -8,6 +8,7 @@ from os.path import abspath, dirname
 from kivy.app import App
 from kivy.properties import ListProperty, StringProperty, ObjectProperty
 import webbrowser
+import utils.colors as colors
 
 __version__ = '1.0.0'
 
@@ -24,78 +25,17 @@ sys.path.insert(0, module_path)
 
 
 class ConferenceApp(App):
-    ''' Our main app class:
-    - 
-    '''
-
-    base_active_bright = ListProperty((226/255.,168/255.,180/255., 1))
-    '''
-    '''
-
-    base_active_color = ListProperty([186/256., 106/256., 54./255, 1])
-    '''This is the base Color in the app that is used to denote the currently
-    active widgets, active buttons and highlited areas. Format
-    is RGBA.
-
-    :attr:`base_active_color` is a :class:`~kivy.properties.ListProperty`
-
-    defaults to Red(217, 52, 47)
-    '''
-
-    base_inactive_color = ListProperty([141/256., 40/256., 40/256., 1])
-    '''This is the base Color in the app that is used to denote the currently
-    inactive items, inactive buttons and highlited areas. Format
-    is RGBA.
-
-    :attr:`base_inactive_color` is a :class:`~kivy.properties.ListProperty`
-
-    defaults to Red(217, 52, 47)
-    '''
-
-    base_inactive_light = ListProperty([163/256., 112/256., 80/256., 1])
-    '''This is the base Color in the app that is used to denote the currently
-    active color used to display active buttons and highlited areas. Format
-    is RGBA.
-
-    :attr:`base_active_color` is a :class:`~kivy.properties.ListProperty`
-
-    defaults to Red(225p, 224, 224)
-    '''
-
-    base_color = ListProperty([120./255, 64./255, 75./255, 1])
-    '''This is the base Color in the app that is used to for bakgrounds.
-
-    :attr:`base_color` is a :class:`~kivy.properties.ListProperty`
-
-    defaults to Red(250, 250, 250, 1)
-    '''
-
+    """ Our main app class:
+    -
+    """
+    base_active_bright = colors.named['red1']
+    base_active_color = colors.named['red2']
+    base_inactive_color = colors.named['red4']
+    base_inactive_light = colors.named['warmgrey']
+    base_color = colors.named['maroon']
     event_name = StringProperty('Python Nordeste 2018')
-    '''
-    This is the name of the event.
-
-    :attr:`event_name` is a :class:`~kivy.properties.StringProperty`
-
-    defaults to ''
-    '''
-
     venue_name = StringProperty('')
-    '''
-    This is the name of the venue.
-
-    :attr:`venue_name` is a :class:`~kivy.properties.StringProperty`
-
-    defaults to ''
-    '''
-
     start_screen = StringProperty('ScreenAbout')
-    '''
-    This is the name of the venue.
-
-    :attr:`venue_name` is a :class:`~kivy.properties.StringProperty`
-
-    defaults to ''
-    '''
 
     def build(self):
         self.script_path = script_path

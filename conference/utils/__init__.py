@@ -1,4 +1,4 @@
-__all__ = ['keyboard', 'pause_app']
+# __all__ = ['keyboard', 'pause_app']
 
 from kivy.app import App
 
