@@ -14,7 +14,7 @@ from os.path import abspath, dirname
 from kivy.app import App
 from kivy.properties import StringProperty
 
-import utils.colors as colors
+from utils.colors import *
 
 __version__ = '1.0.0'
 
@@ -34,22 +34,33 @@ class ConferenceApp(App):
     """ Our main app class:
     -
     """
-    base_active_bright = colors.named['red1']
-    base_active_color = colors.named['red2']
-    base_inactive_color = colors.named['red4']
-    base_inactive_light = colors.named['warmgrey']
-    base_color = colors.named['maroon']
+    base_active_bright = RED
+    base_active_color = BROWN
+    base_inactive_color = DARKRED
+    base_inactive_light = WARMGREY
+    base_color = MAROON
+
+    black = BLACK
+    white = WHITE
+    salmon = SALMON
+    firebrick = FIREBRICK
+    gray = GRAY50
+    indianred = INDIANRED
+
     event_name = StringProperty('Python Nordeste 2018')
     venue_name = StringProperty('')
     start_screen = StringProperty('ScreenAbout')
 
-    def build(self):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
         self.script_path = script_path
         self.icon = 'data/icon.png'
         # Here we build our own navigation higherarchy.
         # So we can decide what to do when the back
         # button is pressed.
         self._navigation_higherarchy = []
+
+    def build(self):
         # this is the main entry point of our app
         from uix.pyne2018 import PyNe2018ScreenManager
         sm = PyNe2018ScreenManager()

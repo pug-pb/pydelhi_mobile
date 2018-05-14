@@ -1,5 +1,5 @@
-'''Screen Schedule
-'''
+"""Screen Schedule
+"""
 
 from kivy.app import App
 from kivy.uix.screenmanager import Screen
@@ -17,33 +17,31 @@ app = App.get_running_app()
 
 
 class TalkInfo(Factory.TouchRippleBehavior, Factory.ButtonBehavior, Factory.BoxLayout):
-    '''
-    '''
-
     talk = ObjectProperty(None)
-    color = ListProperty((.5, .5, .5, .2))
 
     Builder.load_string('''
 <TalkInfo>
     canvas.before:
         Color:
-            rgba: root.color 
+            rgba: app.gray[:3]+[.2] 
         Rectangle:
             size: self.size
             pos: self.pos
     size_hint_y: None
     height: max(lblinfo.texture_size[1] + dp(4), dp(40))
-    spacing: dp(9)
+    spacing: dp(5)
     on_release: 
         scr = app.load_screen('ScreenTalks', manager=app.navigation_manager)
         scr.talkid = self.talk['talk_id']
     LeftAlignedLabel:
         size_hint: None, 1
+        font_size: dp(14)
         valign: 'middle'
         width: dp(45)
         text: "{}\\n{}".format(root.talk['start_time'], root.talk['end_time'])
     Label:
         id: lblinfo
+        font_size: dp(14)
         valign: 'middle'
         size_hint: 1, 1
         text_size: self.width, None
@@ -67,14 +65,14 @@ class ScreenSchedule(Screen):
             rgba: app.base_active_color
         Rectangle
             size: self.width, self.height
-            pos: self.right - self.width  , self.y + dp(5)
+            pos: self.right - self.width  , self.y + dp(3)
         Color
             rgba: app.base_active_color[:3]+[.5]
         Rectangle
             size: self.width, self.height
-            pos: self.right - self.width - dp(5), self.y
+            pos: self.right - self.width - dp(3), self.y
         Color
-            rgba: 0, 0, 0, .5
+            rgba: app.black[:3]+[.5]
         Rectangle
             texture: self.texture
             size: self.width - dp(50), self.height
@@ -86,23 +84,24 @@ class ScreenSchedule(Screen):
     height: dp(45)
     halign: 'center'
     valign: 'middle'
-    pos_hint: {'right': 1}
+    pos_hint: {'left': 1}
 
 <AccordionItemTitle>
     text_size: self.width - dp(10), self.height
     halign: 'left'
     valign: 'middle'
+    color: app.firebrick
 
 <AccordionItem>
     back_color: app.base_inactive_light
     canvas.before:
         Color
-            rgba: root.back_color or (1, 1, 1, 1)
+            rgba: root.back_color or app.white
         Rectangle
             size: dp(270), dp(32)
             pos: self.x, self.top - dp(40)
         Color
-            rgba: (list(root.back_color[:3])+[.3]) if root.back_color else (1, 1, 1, 1)
+            rgba: (list(root.back_color[:3])+[.3]) if root.back_color else app.white
         Rectangle
             size: dp(270), dp(32)
             pos: self.x + dp(5), self.top - (dp(40) + dp(5)) 
@@ -115,7 +114,7 @@ class ScreenSchedule(Screen):
     background_color: app.base_active_color[:3] + [.3]
     canvas.before:
         Color
-            rgba: root.background_color if root.background_color else (1, 1, 1, 1)
+            rgba: root.background_color if root.background_color else app.white
         Rectangle
             size: self.size
             pos: self.pos
@@ -124,9 +123,9 @@ class ScreenSchedule(Screen):
 <ScreenSchedule>
     name: 'ScreenSchedule'
     BoxLayout
-        # spacing: dp(20)
+        spacing: dp(10)
         orientation: 'vertical'
-        padding: dp(4)
+        # padding: dp(4)
         Topic
             text: app.event_name
         Accordion
@@ -144,12 +143,13 @@ class ScreenSchedule(Screen):
         text: 'Title'
 
 <TabbedCarousel>
-    background_color: 1, 1, 1, 0
+    background_color: app.white[:3]+[0]
 
 <TabbedPanelHeader>
-    background_color: (1, 1, 1, 1) if self.state == 'down' else app.base_active_color
+    background_color: app.white if self.state == 'down' else app.base_active_color
     background_normal: 'atlas://data/default/but_overlay'
     background_down: 'atlas://data/default/but_overlay'
+    font_size: dp(12)
 
 <Track@Screen>
     ScrollView
@@ -243,7 +243,7 @@ class ScreenSchedule(Screen):
                     for tlk in trackscreens:
                         tc = tlk.ids.container
                         ti = TalkInfo(talk=talk)
-                        ti.color = (.5, .5, .5, .2) if len(tc.children)%2 == 0 else (.3, .3, .3, .2)
+                        ti.color = app.gray[:3]+[2] if len(tc.children)%2 == 0 else (.3, .3, .3, .2)
                         if talk['current']: ti.color = ti.color[:3] + [.8]
                         tc.add_widget(ti)
                     continue
