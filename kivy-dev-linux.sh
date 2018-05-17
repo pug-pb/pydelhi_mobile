@@ -11,7 +11,7 @@ libsdl2-mixer-dev libsdl2-ttf-dev libportmidi-dev libswscale-dev \
 libavformat-dev libavcodec-dev zlib1g-dev ffmpeg libsmpeg-dev \
 libgstreamer1.0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good \
 docutils-common docutils-doc sgml-base xclip xml-core xsel \
-python-lxml xvfb
+python3-lxml xvfb
 read -p "Press enter to continue"
 
 clear
@@ -37,7 +37,7 @@ pip install -r need-install.txt
 read -p "Press enter to continue"
 
 clear
-# download source code
+# download kivy source code
 wget https://github.com/kivy/kivy/archive/master.zip
 unzip master.zip
 
