@@ -1,11 +1,16 @@
 {
   "0.0.1": [
     {
-      "name": "Vox Tecnologia",
+      "name": "UNIFACISA",
+      "type": "Correalização",
+      "website": "http://www.cesed.br/",
+      "logo": "data/logo/unifacisa.png"
+    },
+    {
+      "name": "Python Foundation",
       "type": "Gold",
-      "website": "http://www.voxtecnologia.com.br/",
-      "logo": "data/logo/vox.png",
-      "about": "http://www.voxtecnologia.com.br/"
+      "website": "https://www.python.org/psf-landing/",
+      "logo": "data/logo/psf.png"
     },
     {
       "name": "Globo.com",
@@ -14,10 +19,11 @@
       "logo": "data/logo/globo.png"
     },
     {
-      "name": "Python Foundation",
+      "name": "Vox Tecnologia",
       "type": "Gold",
-      "website": "https://www.python.org/psf-landing/",
-      "logo": "data/logo/psf.png"
+      "website": "http://www.voxtecnologia.com.br/",
+      "logo": "data/logo/vox.png",
+      "about": "http://www.voxtecnologia.com.br/"
     },
     {
       "name": "Vinta",
@@ -44,22 +50,10 @@
       "logo": "data/logo/novatec.png"
     },
     {
-      "name": "castanhola.tv",
-      "type": "Apoio",
-      "website": "http://castanhola.tv/",
-      "logo": "data/logo/castanhola.png"
-    },
-    {
       "name": "Jetbrains",
       "type": "Apoio",
       "website": "http://www.jetbrains.com",
       "logo": "data/logo/jetbrains.png"
-    },
-    {
-      "name": "UNIFACISA",
-      "type": "Correalização",
-      "website": "http://www.cesed.br/",
-      "logo": "data/logo/unifacisa.png"
     }
   ]
 }

@@ -9,7 +9,7 @@ import webbrowser
 class ScreenAbout(Screen):
     Builder.load_string('''
 <ScreenAbout>
-    spacing: dp(9)
+    spacing: dp(10)
     name: 'ScreenAbout'
     ScrollView
         id: scroll

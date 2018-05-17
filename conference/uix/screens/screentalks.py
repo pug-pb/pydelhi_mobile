@@ -63,7 +63,7 @@ class ScreenTalks(Screen):
 
     Builder.load_string('''
 <ScreenTalks>
-    spacing: dp(9)
+    spacing: dp(5)
     name: 'ScreenTalks'
     ScrollView
         id: scroll

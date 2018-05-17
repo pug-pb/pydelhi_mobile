@@ -1,6 +1,6 @@
-'''ScreenSponsor:
+"""ScreenSponsor:
 Display all the logos of the sponsors.
-'''
+"""
 
 from kivy.uix.screenmanager import Screen
 from kivy.lang import Builder
@@ -11,8 +11,8 @@ from kivy.uix.gridlayout import GridLayout
 
 
 class Sponsor(GridLayout):
-    ''' This is a simple StackLayout that holds the image 
-    '''
+    """ This is a simple StackLayout that holds the image
+    """
     data = ObjectProperty(None)
     cols = 2
 
@@ -24,7 +24,7 @@ class ScreenSponsor(Screen):
     name: 'ScreenSponsor'
     BoxLayout
         orientation: 'vertical'
-        spacing: dp(4)
+        spacing: dp(10)
         id:main
         
 <Footer@BoxLayout>
@@ -37,7 +37,7 @@ class ScreenSponsor(Screen):
     spacing: dp(8)
     size_hint: 1, 1
     BackLabel
-        text: self.parent.data['name']
+        text: self.parent.data['type'] + ': ' + self.parent.data['name']
         size_hint: 1, None
         height: dp(16)
         font_size:dp(14)
@@ -57,8 +57,8 @@ class ScreenSponsor(Screen):
 ''')
 
     def on_enter(self, onsuccess=False):
-        '''Series of actions to be performed when Schedule screen is entered
-        '''
+        """Series of actions to be performed when Schedule screen is entered
+        """
 
         # this should update the file on disk
         sponsors = get_data('sponsors', onsuccess=onsuccess)

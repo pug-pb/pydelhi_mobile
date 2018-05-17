@@ -1,5 +1,5 @@
-'''Navigation Screen
-'''
+"""Navigation Screen
+"""
 from kivy.uix.screenmanager import Screen
 from kivy.lang import Builder
 from uix.navigationdrawer import NavigationDrawer
@@ -9,8 +9,8 @@ Factory.register('TouchRippleBehavior', module='uix.behaviors')
 
 
 class NavigationScreen(Screen):
-  '''
-  '''
+  """
+  """
 
   Builder.load_string('''
 #:import WipeTransition kivy.uix.screenmanager.WipeTransition
