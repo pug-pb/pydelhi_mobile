@@ -1,8 +1,8 @@
 {
   "0.0.1": 
     {
-      "image": "https://kushaldas.in/images/pyconin15-3.jpg",
-      "text1": "Vai ter Maratona de Programação na Python Nordeste 2018, dia 24/05.",
-      "text2": "As inscrições serão divulgadas em breve!"
+      "image": "atlas://data/default/maratona",
+      "text1": "Vai ter Maratona de Programação na Python Nordeste 2018, dia 24/05. Inscrições gratuitas.",
+      "text2": ""
     }
 }
