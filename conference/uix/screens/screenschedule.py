@@ -195,6 +195,19 @@ class ScreenSchedule(Screen):
         AccordionItem = Factory.AccordionItem
         Track = Factory.Track
 
+        # criar tabbed carrousel apenas para os locais que tenham programação na data
+        list_tracks = ["[LAB] GAROTA\nDO ENIAC", "[LAB] ADA\nLOVELACE", "[LAB] GRACE\nHOPPER",
+                       "[SALA] HIPÁCIA\nDE ALEXANDRIA", "[SALA] KAREN\nSPARK JONES",
+                       "[LAB] JEAN\nSAMMET", "[LAB] RADIA\nPERLMAN", "[LAB] CAROL\nSHAW",
+                       "[SALA] ROBERTA\nWILLIAMS", "[SALA] FRANCES\nALLEN", "TEATRO\nPYTHÔNICO",
+                       "FREETIME" ]
+
+        locals_to_date = {
+            '2018-05-24': [1, 2, 3, 4, 5, 11, 12],
+            '2018-05-25': [6, 7, 8, 9, 10, 12],
+            '2018-05-26': [11, 12]
+        }
+
         first = None
         today = datetime.datetime.now()
         
@@ -203,7 +216,7 @@ class ScreenSchedule(Screen):
             ccday = datetime.datetime.strptime(date,"%Y-%m-%d")
             cday = AccordionItem(title=ccday.strftime("%d/%m/%Y"))
 
-            if ccday.date()  >=  today.date():
+            if ccday.date() >= today.date():
                 if not first: first = cday
             acordion_add(cday)
             day_sched = schedule[date]
@@ -218,8 +231,9 @@ class ScreenSchedule(Screen):
                 new_trk = Track(name=track)
                 tsa(new_trk)
                 # add track to carousel
-                tca(new_trk)
-            
+                if list_tracks.index(new_trk.name)+1 in locals_to_date[date]:
+                    tca(new_trk)
+
             for talk in day_sched:
                 try:
                     stime  = "%s -- %s"%(date, talk['start_time'])
