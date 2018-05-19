@@ -96,7 +96,7 @@
             "speaker": {
                 "name": "Erlon Júnior",
                 "info": "Cursa Ciência da Computação, freelancer como PenTester e Desenvolvedor, trabalha atualmente como Pesquisador e Desenvolvedor IoT no CTPD (Centro Tecnológico de Pesquisa e Desenvolvimento). Programa em Pascal, Python, Ruby, C/C++, apaixonado por Segurança da Informação, Hacking e muitas outras áreas de TI.",
-                "photo": "avatar.png"
+                "photo": "Erlon.jpg"
             }
         },
         
@@ -278,12 +278,12 @@
         
         "26": {
             "title": "Domain Driven Design (DDD) aplicado em Python para ambientes ágeis",
-            "description": "",
+            "description": "jhonatan.teixeira@gmail.com",
             "type": "default",
             "speaker": {
                 "name": "Jhonatan Teixeira",
                 "info": "Domain Driven Design (DDD) aplicado em Python para ambientes ágeis",
-                "photo": "avatar.png"
+                "photo": "jhonatan.teixeira.jpg"
             }
         },
         
@@ -294,7 +294,7 @@
             "speaker": {
                 "name": "Prof. Dr. Adriano A. Santos",
                 "info": "Introdução à ciência de dados com Python",
-                "photo": "avatar.png"
+                "photo": "Adriano.jpg"
             }
         },
         
@@ -360,7 +360,7 @@
             "speaker": {
                 "name": "Marcelo Vieira",
                 "info": "Microservices em Python: desafios e soluções",
-                "photo": "avatar.png"
+                "photo": "MarceloVieira.jpg"
             }
         },
         
@@ -410,12 +410,12 @@
         
         "38": {
             "title": "Domain Driven Design (DDD) aplicado em Python para ambientes ágeis",
-            "description": "",
+            "description": "jhonatan.teixeira@gmail.com",
             "type": "default",
             "speaker": {
                 "name": "Jhonatan Teixeira",
                 "info": "Domain Driven Design (DDD) aplicado em Python para ambientes ágeis",
-                "photo": "avatar.png"
+                "photo": "jhonatan.teixeira.jpg"
             }
         },
         
@@ -536,7 +536,7 @@
             "speaker": {
                 "name": "Luiz Cláudio Silva",
                 "info": "Usando BDs NoSQL com Python",
-                "photo": "avatar.png"
+                "photo": "LuizClaudio.jpg"
             }
         },
         
@@ -547,7 +547,7 @@
             "speaker": {
                 "name": "Hugo Soares",
                 "info": "Introdução ao machine learning em saúde",
-                "photo": "avatar.png"
+                "photo": "HugoSoares.jpg"
             }
         },
         
@@ -663,12 +663,12 @@
         
         "61": {
             "title": "Usando BDs NoSQL com Python",
-            "description": "",
+            "description": "luizclaudio@gmail.com",
             "type": "default",
             "speaker": {
                 "name": "Luiz Cláudio",
                 "info": "Usando BDs NoSQL com Python",
-                "photo": "avatar.png"
+                "photo": "LuizClaudio.jpg"
             }
         },
         
@@ -679,7 +679,7 @@
             "speaker": {
                 "name": "Hugo Soares",
                 "info": "Introdução ao machine learning em saúde",
-                "photo": "avatar.png"
+                "photo": "HugoSoares.jpg"
             }
         },
         
@@ -811,7 +811,7 @@
             "speaker": {
                 "name": "Gileno Filho",
                 "info": "Introdução a Data Science com Pandas e Scikit-learn",
-                "photo": "avatar.png"
+                "photo": "Gileno.jpg"
             }
         },
         
@@ -943,7 +943,7 @@
             "speaker": {
                 "name": "Gileno Filho",
                 "info": "Introdução a Data Science com Pandas e Scikit-learn",
-                "photo": "avatar.png"
+                "photo": "Gileno.jpg"
             }
         },
         
@@ -1053,7 +1053,7 @@
             "speaker": {
                 "name": "Soraya Roberta",
                 "info": "print('Você já ensinou Python para uma pessoa hoje?')",
-                "photo": "avatar.png"
+                "photo": "Soraya.jpg"
             }
         },
         
@@ -1163,17 +1163,17 @@
             "speaker": {
                 "name": "Jessica Temporal",
                 "info": "Serenata de Amor: Ciência de dados no mundo real",
-                "photo": "jesica-temporal.png"
+                "photo": "jessica-temporal.png"
             }
         },
         
         "107": {
-            "title": "Além dos Paradigmas: dicas para escrever código Pythônico",
+            "title": "Além dos Paradigmas: dicas para escrever código PYTHONICO",
             "description": "",
             "type": "default",
             "speaker": {
                 "name": "Luciano Ramalho",
-                "info": "Além dos Paradigmas: dicas para escrever código Pythônico",
+                "info": "Além dos Paradigmas: dicas para escrever código PYTHONICO",
                 "photo": "luciano-ramalho.png"
             }
         },

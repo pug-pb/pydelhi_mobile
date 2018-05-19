@@ -196,10 +196,10 @@ class ScreenSchedule(Screen):
         Track = Factory.Track
 
         # criar tabbed carrousel apenas para os locais que tenham programação na data
-        list_tracks = ["[LAB] GAROTA\nDO ENIAC", "[LAB] ADA\nLOVELACE", "[LAB] GRACE\nHOPPER",
-                       "[SALA] HIPÁCIA\nDE ALEXANDRIA", "[SALA] KAREN\nSPARK JONES",
+        list_tracks = ["[LAB] GAROTAS\nDO ENIAC", "[LAB] ADA\nLOVELACE", "[LAB] GRACE\nHOPPER",
+                       "[SALA] HIPACIA\nDE ALEXANDRIA", "[SALA] KAREN\nSPARK JONES",
                        "[LAB] JEAN\nSAMMET", "[LAB] RADIA\nPERLMAN", "[LAB] CAROL\nSHAW",
-                       "[SALA] ROBERTA\nWILLIAMS", "[SALA] FRANCES\nALLEN", "TEATRO\nPYTHÔNICO",
+                       "[SALA] ROBERTA\nWILLIAMS", "[SALA] FRANCES\nALLEN", "TEATRO\nPYTHONICO",
                        "FREETIME" ]
 
         locals_to_date = {
@@ -230,7 +230,7 @@ class ScreenSchedule(Screen):
             for track in tracks:
                 new_trk = Track(name=track)
                 tsa(new_trk)
-                # add track to carousel
+                # add track to carousel if date it is ok
                 if list_tracks.index(new_trk.name)+1 in locals_to_date[date]:
                     tca(new_trk)
 

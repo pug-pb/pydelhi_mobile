@@ -1,6 +1,6 @@
 {
     "0.0.1": [{
-        "tracks": ["[LAB] GAROTA\nDO ENIAC", "[LAB] ADA\nLOVELACE", "[LAB] GRACE\nHOPPER", "[SALA] HIPÁCIA\nDE ALEXANDRIA", "[SALA] KAREN\nSPARK JONES", "[LAB] JEAN\nSAMMET", "[LAB] RADIA\nPERLMAN", "[LAB] CAROL\nSHAW", "[SALA] ROBERTA\nWILLIAMS", "[SALA] FRANCES\nALLEN", "TEATRO\nPYTHÔNICO", "FREETIME" ],
+        "tracks": ["[LAB] GAROTAS\nDO ENIAC", "[LAB] ADA\nLOVELACE", "[LAB] GRACE\nHOPPER", "[SALA] HIPACIA\nDE ALEXANDRIA", "[SALA] KAREN\nSPARK JONES", "[LAB] JEAN\nSAMMET", "[LAB] RADIA\nPERLMAN", "[LAB] CAROL\nSHAW", "[SALA] ROBERTA\nWILLIAMS", "[SALA] FRANCES\nALLEN", "TEATRO\nPYTHONICO", "FREETIME" ],
         "2018-05-24": [
         {
           "talk_id": "1",
@@ -854,7 +854,7 @@
         
         {
           "talk_id": "107",
-          "title": "Além dos Paradigmas: dicas para escrever código Pythônico",
+          "title": "Além dos Paradigmas: dicas para escrever código PYTHONICO",
           "start_time": "14:40",
           "end_time": "15:15",
           "track": "11"
