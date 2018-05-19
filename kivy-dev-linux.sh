@@ -4,14 +4,22 @@ sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y
 read -p "Press enter to continue"
 
 clear
-## dependências para o sistema
+## system dependencies
+
+sudo dpkg --add-architecture i386
+sudo apt install libncurses5:i386 libstdc++6:i386 libgtk2.0-0:i386 \
+libpangox-1.0-0:i386 libpangoxft-1.0-0:i386 libidn11:i386 zlib1g:i386
+
+sudo apt install openjdk-8-jdk ccache adb 
+
 sudo apt install -y build-essential git python3-dev libssl-dev \
 libcups2-dev libcairo2-dev libsdl2-dev libsdl2-image-dev \
 libsdl2-mixer-dev libsdl2-ttf-dev libportmidi-dev libswscale-dev \
 libavformat-dev libavcodec-dev zlib1g-dev ffmpeg libsmpeg-dev \
 libgstreamer1.0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good \
 docutils-common docutils-doc sgml-base xclip xml-core xsel \
-python3-lxml xvfb
+python-lxml python3-lxml xvfb 
+
 read -p "Press enter to continue"
 
 clear
@@ -41,7 +49,7 @@ clear
 wget https://github.com/kivy/kivy/archive/master.zip
 unzip master.zip
 
-# instalar a partir dos fontes
+# install from source
 cd kivy-master
 python setup.py install
 pip install kivy-garden

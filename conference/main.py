@@ -51,16 +51,13 @@ class ConferenceApp(App):
     venue_name = StringProperty('')
     start_screen = StringProperty('ScreenAbout')
 
-    def __init__(self, **kwargs):
-        super().__init__(**kwargs)
+    def build(self):
         self.script_path = script_path
         self.icon = 'data/icon.png'
         # Here we build our own navigation higherarchy.
         # So we can decide what to do when the back
         # button is pressed.
         self._navigation_higherarchy = []
-
-    def build(self):
         # this is the main entry point of our app
         from uix.pyne2018 import PyNe2018ScreenManager
         sm = PyNe2018ScreenManager()
@@ -72,7 +69,7 @@ class ConferenceApp(App):
         return True 
 
     def on_start(self):
-        # bind to the keyboard to listen to 
+        # bind to the keyboard to listen to
         # specific key codes
         from utils.keyboard import hook_keyboard
         hook_keyboard()
@@ -108,7 +105,7 @@ class ConferenceApp(App):
             `manager`: the manager to load this screen, this defaults to
             the main class.
         """
-        store_back = False if screen == self.start_screen else store_back
+        store_back = False if screen == 'StartupScreen' else store_back
 
         manager = manager or self.root
         # load screen modules dynamically

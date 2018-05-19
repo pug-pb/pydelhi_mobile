@@ -9,11 +9,11 @@ import webbrowser
 class ScreenAbout(Screen):
     Builder.load_string('''
 <ScreenAbout>
-    spacing: dp(10)
     name: 'ScreenAbout'
     ScrollView
         id: scroll
         ScrollGrid
+            spacing: dp(20)
             AsyncImage
                 id: imgbt
                 allow_stretch: True
