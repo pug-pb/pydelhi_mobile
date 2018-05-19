@@ -19,7 +19,7 @@ class SpeakerDetails(Factory.ScrollGrid):
     Builder.load_string('''
 <SpeakerDetails>
     AsyncImage:
-        source: root.speaker['photo'] 
+        source: "data/images/" + root.speaker['photo'] 
         opacity: 1 if root.speaker['photo']  else 0
         allow_stretch: True
         size_hint_y: None
