@@ -6,9 +6,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Django Girls",
+                "info": "Workshop gratuito de programação para mulheres",
+                "photo": "djangogirls.jpg"
             }
         },
         
@@ -17,9 +17,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Equipes inscritas",
+                "info": "Equipes de até 3 integrantes resolvem questões de diferentes dificuldades para provar qual é a melhor",
+                "photo": "maratona.png"
             }
         },
         
@@ -29,8 +29,8 @@
             "type": "default",
             "speaker": {
                 "name": "Newton Galiza",
-                "info": "",
-                "photo": ""
+                "info": "Para iniciantes, serão mostrados os primeiros passos no desenvolvimento com Python e Linux",
+                "photo": "Newton.jpg"
             }
         },
         
@@ -39,9 +39,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -50,9 +50,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -84,8 +84,8 @@
             "type": "default",
             "speaker": {
                 "name": "pasknel",
-                "info": "",
-                "photo": ""
+                "info": "Hacking Ultrasound Machines with Python and Open Source Tools",
+                "photo": "avatar.png"
             }
         },
         
@@ -105,9 +105,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -116,9 +116,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -127,9 +127,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Coffee Break",
+                "info": "Hora da pausa para o café e guloseimas",
+                "photo": "cafe.png"
             }
         },
         
@@ -138,9 +138,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Django Girls",
+                "info": "Workshop gratuito de programação para mulheres",
+                "photo": "djangogirls.jpg"
             }
         },
         
@@ -149,9 +149,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Equipes inscritas",
+                "info": "Equipes de até 3 integrantes resolvem questões de diferentes dificuldades para provar qual é a melhor",
+                "photo": "maratona.png"
             }
         },
         
@@ -161,8 +161,8 @@
             "type": "default",
             "speaker": {
                 "name": "Newton Galiza",
-                "info": "",
-                "photo": ""
+                "info": "Para iniciantes, serão mostrados os primeiros passos no desenvolvimento com Python e Linux",
+                "photo": "Newton.jpg"
             }
         },
         
@@ -171,9 +171,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -182,9 +182,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -194,7 +194,7 @@
             "type": "default",
             "speaker": {
                 "name": "raildo",
-                "info": "",
+                "info": "Como OpenStack faz Python uma linguagem de programação melhor e vice-versa",
                 "photo": "avatar.png"
             }
         },
@@ -237,9 +237,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -248,9 +248,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -259,9 +259,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Almoço",
+                "info": "Parada para recuperar o fôlego e forrar a barriga",
+                "photo": "almoco.jpg"
             }
         },
         
@@ -270,9 +270,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Django Girls",
+                "info": "Workshop gratuito de programação para mulheres",
+                "photo": "djangogirls.jpg"
             }
         },
         
@@ -282,8 +282,8 @@
             "type": "default",
             "speaker": {
                 "name": "Jhonatan Teixeira",
-                "info": "",
-                "photo": ""
+                "info": "Domain Driven Design (DDD) aplicado em Python para ambientes ágeis",
+                "photo": "avatar.png"
             }
         },
         
@@ -293,8 +293,8 @@
             "type": "default",
             "speaker": {
                 "name": "Prof. Dr. Adriano A. Santos",
-                "info": "",
-                "photo": ""
+                "info": "Introdução à ciência de dados com Python",
+                "photo": "avatar.png"
             }
         },
         
@@ -359,7 +359,7 @@
             "type": "default",
             "speaker": {
                 "name": "Marcelo Vieira",
-                "info": "",
+                "info": "Microservices em Python: desafios e soluções",
                 "photo": "avatar.png"
             }
         },
@@ -369,9 +369,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -380,9 +380,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -391,9 +391,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Coffee Break",
+                "info": "Hora da pausa para o café e guloseimas",
+                "photo": "cafe.png"
             }
         },
         
@@ -402,9 +402,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Django Girls",
+                "info": "Workshop gratuito de programação para mulheres",
+                "photo": "djangogirls.jpg"
             }
         },
         
@@ -414,8 +414,8 @@
             "type": "default",
             "speaker": {
                 "name": "Jhonatan Teixeira",
-                "info": "",
-                "photo": ""
+                "info": "Domain Driven Design (DDD) aplicado em Python para ambientes ágeis",
+                "photo": "avatar.png"
             }
         },
         
@@ -425,8 +425,8 @@
             "type": "default",
             "speaker": {
                 "name": "Prof. Dr. Adriano A. Santos",
-                "info": "",
-                "photo": ""
+                "info": "Introdução à ciência de dados com Python",
+                "photo": "avatar.png"
             }
         },
         
@@ -479,9 +479,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -490,9 +490,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -501,8 +501,8 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
+                "name": "Cerimônia de Abertura",
+                "info": "Cerimônia de abertura oficial do evento",
                 "photo": ""
             }
         },
@@ -512,8 +512,8 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
+                "name": "Credenciamento",
+                "info": "Credenciamento e recebimento do kit da conferência",
                 "photo": ""
             }
         },
@@ -524,8 +524,8 @@
             "type": "default",
             "speaker": {
                 "name": "Fernando Masanori",
-                "info": "",
-                "photo": ""
+                "info": "Raspagem e Análise de Dados para Jornalistas",
+                "photo": "fernando-masanori.png"
             }
         },
         
@@ -535,8 +535,8 @@
             "type": "default",
             "speaker": {
                 "name": "Luiz Cláudio Silva",
-                "info": "",
-                "photo": ""
+                "info": "Usando BDs NoSQL com Python",
+                "photo": "avatar.png"
             }
         },
         
@@ -546,8 +546,8 @@
             "type": "default",
             "speaker": {
                 "name": "Hugo Soares",
-                "info": "",
-                "photo": ""
+                "info": "Introdução ao machine learning em saúde",
+                "photo": "avatar.png"
             }
         },
         
@@ -556,9 +556,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -567,9 +567,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -612,7 +612,7 @@
             "type": "default",
             "speaker": {
                 "name": "alvarowolfx",
-                "info": "",
+                "info": "Faça seu próprio Google Home com um Raspberry Pi, Python e o Google Assistant SDK",
                 "photo": "avatar.png"
             }
         },
@@ -622,9 +622,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -633,9 +633,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -644,9 +644,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Coffee Break",
+                "info": "Hora da pausa para o café e guloseimas",
+                "photo": "cafe.png"
             }
         },
         
@@ -656,8 +656,8 @@
             "type": "default",
             "speaker": {
                 "name": "Fernando Masanori",
-                "info": "",
-                "photo": ""
+                "info": "Raspagem e Análise de Dados para Jornalistas",
+                "photo": "fernando-masanori.png"
             }
         },
         
@@ -667,8 +667,8 @@
             "type": "default",
             "speaker": {
                 "name": "Luiz Cláudio",
-                "info": "",
-                "photo": ""
+                "info": "Usando BDs NoSQL com Python",
+                "photo": "avatar.png"
             }
         },
         
@@ -678,8 +678,8 @@
             "type": "default",
             "speaker": {
                 "name": "Hugo Soares",
-                "info": "",
-                "photo": ""
+                "info": "Introdução ao machine learning em saúde",
+                "photo": "avatar.png"
             }
         },
         
@@ -688,9 +688,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -699,9 +699,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -754,9 +754,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -765,9 +765,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -776,9 +776,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Almoço",
+                "info": "Parada para recuperar o fôlego e forrar a barriga",
+                "photo": "almoco.jpg"
             }
         },
         
@@ -788,8 +788,8 @@
             "type": "default",
             "speaker": {
                 "name": "Fernando Masanori",
-                "info": "",
-                "photo": ""
+                "info": "Raspagem e Análise de Dados para Jornalistas",
+                "photo": "fernando-masanori.png"
             }
         },
         
@@ -799,8 +799,8 @@
             "type": "default",
             "speaker": {
                 "name": "Luciano Ramalho",
-                "info": "",
-                "photo": ""
+                "info": "TDD com PyTest",
+                "photo": "luciano-ramalho.png"
             }
         },
         
@@ -810,8 +810,8 @@
             "type": "default",
             "speaker": {
                 "name": "Gileno Filho",
-                "info": "",
-                "photo": ""
+                "info": "Introdução a Data Science com Pandas e Scikit-learn",
+                "photo": "avatar.png"
             }
         },
         
@@ -886,9 +886,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -897,9 +897,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -908,9 +908,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Coffee Break",
+                "info": "Hora da pausa para o café e guloseimas",
+                "photo": "cafe.png"
             }
         },
         
@@ -920,8 +920,8 @@
             "type": "default",
             "speaker": {
                 "name": "Fernando Masanori",
-                "info": "",
-                "photo": ""
+                "info": "Raspagem e Análise de Dados para Jornalistas",
+                "photo": "fernando-masanori.png"
             }
         },
         
@@ -931,8 +931,8 @@
             "type": "default",
             "speaker": {
                 "name": "Luciano Ramalho",
-                "info": "",
-                "photo": ""
+                "info": "TDD com PyTest",
+                "photo": "luciano-ramalho.png"
             }
         },
         
@@ -942,8 +942,8 @@
             "type": "default",
             "speaker": {
                 "name": "Gileno Filho",
-                "info": "",
-                "photo": ""
+                "info": "Introdução a Data Science com Pandas e Scikit-learn",
+                "photo": "avatar.png"
             }
         },
         
@@ -964,8 +964,8 @@
             "type": "default",
             "speaker": {
                 "name": "Thais Viana e Jessica Temporal",
-                "info": "",
-                "photo": ""
+                "info": "Eventos itinerantes de empoderamento tecnológico na comunidade Python",
+                "photo": "thais-viana.png"
             }
         },
         
@@ -986,7 +986,7 @@
             "type": "default",
             "speaker": {
                 "name": "jhonatan",
-                "info": "",
+                "info": "Melhorando a performance com concorrencia (concurrency), threading e IO.",
                 "photo": "avatar.png"
             }
         },
@@ -996,9 +996,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -1007,9 +1007,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -1040,9 +1040,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -1052,8 +1052,8 @@
             "type": "default",
             "speaker": {
                 "name": "Soraya Roberta",
-                "info": "",
-                "photo": ""
+                "info": "print('Você já ensinou Python para uma pessoa hoje?')",
+                "photo": "avatar.png"
             }
         },
         
@@ -1063,8 +1063,8 @@
             "type": "default",
             "speaker": {
                 "name": "Thais Viana",
-                "info": "",
-                "photo": ""
+                "info": "Sistemas de Recomendação da matemática a prática",
+                "photo": "thais-viana.png"
             }
         },
         
@@ -1073,9 +1073,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -1084,9 +1084,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Coffee Break",
+                "info": "Hora da pausa para o café e guloseimas",
+                "photo": "cafe.png"
             }
         },
         
@@ -1095,9 +1095,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -1107,8 +1107,8 @@
             "type": "default",
             "speaker": {
                 "name": "Judite Cypreste e Fernando Masanori",
-                "info": "",
-                "photo": ""
+                "info": "Programação para jornalistas: 3 meses de experiências em uma redação",
+                "photo": "judite-cypreste.png"
             }
         },
         
@@ -1128,9 +1128,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -1139,9 +1139,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Almoço",
+                "info": "Parada para recuperar o fôlego e forrar a barriga",
+                "photo": "almoco.jpg"
             }
         },
         
@@ -1150,9 +1150,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "[Palestra 34]",
+                "info": "[Palestra 34]",
+                "photo": "avatar.png"
             }
         },
         
@@ -1162,8 +1162,8 @@
             "type": "default",
             "speaker": {
                 "name": "Jessica Temporal",
-                "info": "",
-                "photo": ""
+                "info": "Serenata de Amor: Ciência de dados no mundo real",
+                "photo": "jesica-temporal.png"
             }
         },
         
@@ -1173,8 +1173,8 @@
             "type": "default",
             "speaker": {
                 "name": "Luciano Ramalho",
-                "info": "",
-                "photo": ""
+                "info": "Além dos Paradigmas: dicas para escrever código Pythônico",
+                "photo": "luciano-ramalho.png"
             }
         },
         
@@ -1183,9 +1183,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
             }
         },
         
@@ -1194,9 +1194,9 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
-                "photo": ""
+                "name": "Coffee Break",
+                "info": "Hora da pausa para o café e guloseimas",
+                "photo": "cafe.png"
             }
         },
         
@@ -1205,8 +1205,8 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
+                "name": "Momento para networking",
+                "info": "Pausa para conhecer quem você não conheceu ainda",
                 "photo": ""
             }
         },
@@ -1217,7 +1217,7 @@
             "type": "default",
             "speaker": {
                 "name": "Keynotes",
-                "info": "",
+                "info": "Painel sobre o futuro da tecnologia e da linguagem",
                 "photo": ""
             }
         },
@@ -1227,8 +1227,8 @@
             "description": "",
             "type": "default",
             "speaker": {
-                "name": "",
-                "info": "",
+                "name": "Keynotes",
+                "info": "Cerimônia de encerramento oficial do evento",
                 "photo": ""
             }
         }
