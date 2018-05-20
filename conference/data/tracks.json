@@ -327,7 +327,7 @@
             "speaker": {
                 "name": "Rael Max",
                 "info": "Desenvolvedor apaixonado por opensource, colaboração e qualidade de software. É participante ativo da comunidade Python e trabalha há mais de 8 anos desenvolvendo as mais variadas soluções. Atualmente é desenvolvedor do time de plataformas da Globo.com.",
-                "photo": "Rael.jpeg"
+                "photo": "Rael.jpg"
             }
         },
         
@@ -844,7 +844,7 @@
             "speaker": {
                 "name": "Diógenes Fernandes",
                 "info": "Desenvolvedor blockchain e full-stack com mais de 8 anos de experiência profissional, tendo participado duas vezes do Google Summer of Code como estudante, atualmente core dev da blockchain Phore e jogador de Capture The Flag da FireShell.",
-                "photo": "Diogenes.jpeg"
+                "photo": "Diogenes.jpg"
             }
         },
         
@@ -1020,7 +1020,7 @@
             "speaker": {
                 "name": "Marianne Linhares",
                 "info": "Ex-estagiária do Google onde trabalhou junto do time do TensorFlow, atualmente é aluna de graduação da UFCG onde estuda ciência da computação, pesquisa na área de Machine Learning e é Google Developer Expert no assunto do Brasil. Twitter: @hereismari",
-                "photo": "Marianne.jpeg"
+                "photo": "Marianne.jpg"
             }
         },
         
@@ -1031,176 +1031,11 @@
             "speaker": {
                 "name": "Ana Paula da Silva Mendes",
                 "info": "20 anos, cursa Ciência da Computação na UFPI (5/8 semestre). Co-fundadora e co-organizadora da PyLadies Teresina. Tem uma iniciativa onde compartilho conhecimento chamada “Ana no Terminal”.",
-                "photo": "AnaPaula.jpeg"
+                "photo": "AnaPaula.jpg"
             }
         },
         
         "95": {
-            "title": "Lightning Talk (3 de 5min)",
-            "description": "",
-            "type": "default",
-            "speaker": {
-                "name": "Inscrições no local",
-                "info": "Espaço aberto para apresentações sobre qualquer assunto",
-                "photo": "avatar.png"
-            }
-        },
-        
-        "96": {
-            "title": "print('Você já ensinou Python para uma pessoa hoje?')",
-            "description": "",
-            "type": "default",
-            "speaker": {
-                "name": "Soraya Roberta",
-                "info": "print('Você já ensinou Python para uma pessoa hoje?')",
-                "photo": "Soraya.jpg"
-            }
-        },
-        
-        "97": {
-            "title": "Sistemas de Recomendação da matemática a prática",
-            "description": "",
-            "type": "default",
-            "speaker": {
-                "name": "Thais Viana",
-                "info": "Sistemas de Recomendação da matemática a prática",
-                "photo": "thais-viana.png"
-            }
-        },
-        
-        "98": {
-            "title": "Lightning Talk (1 de 5min)",
-            "description": "",
-            "type": "default",
-            "speaker": {
-                "name": "Inscrições no local",
-                "info": "Espaço aberto para apresentações sobre qualquer assunto",
-                "photo": "avatar.png"
-            }
-        },
-        
-        "99": {
-            "title": "Coffee Break",
-            "description": "",
-            "type": "default",
-            "speaker": {
-                "name": "Coffee Break",
-                "info": "Hora da pausa para o café e guloseimas",
-                "photo": "cafe.png"
-            }
-        },
-        
-        "100": {
-            "title": "Lightning Talk (2 de 5min)",
-            "description": "",
-            "type": "default",
-            "speaker": {
-                "name": "Inscrições no local",
-                "info": "Espaço aberto para apresentações sobre qualquer assunto",
-                "photo": "avatar.png"
-            }
-        },
-        
-        "101": {
-            "title": "Programação para jornalistas: 3 meses de experiências em uma redação",
-            "description": "",
-            "type": "default",
-            "speaker": {
-                "name": "Judite Cypreste e Fernando Masanori",
-                "info": "Programação para jornalistas: 3 meses de experiências em uma redação",
-                "photo": "judite-cypreste.png"
-            }
-        },
-        
-        "102": {
-            "title": "Python & Kivy: Inclusão Mobile",
-            "description": "hildeberto@gmail.com",
-            "type": "default",
-            "speaker": {
-                "name": "Hildeberto Magalhães",
-                "info": "Graduado em Ciência da Computação, MBA em Gestão de Projetos, experiência profissional desde 1988 com desenvolvimento de sistemas. Considera Python a linguagem do novo século.",
-                "photo": "hilam.png"
-            }
-        },
-        
-        "103": {
-            "title": "Lightning Talk (2 de 5min)",
-            "description": "",
-            "type": "default",
-            "speaker": {
-                "name": "Inscrições no local",
-                "info": "Espaço aberto para apresentações sobre qualquer assunto",
-                "photo": "avatar.png"
-            }
-        },
-        
-        "104": {
-            "title": "Almoço",
-            "description": "",
-            "type": "default",
-            "speaker": {
-                "name": "Almoço",
-                "info": "Parada para recuperar o fôlego e forrar a barriga",
-                "photo": "almoco.jpg"
-            }
-        },
-        
-        "105": {
-            "title": "[Palestra 34]",
-            "description": "",
-            "type": "default",
-            "speaker": {
-                "name": "[Palestra 34]",
-                "info": "[Palestra 34]",
-                "photo": "avatar.png"
-            }
-        },
-        
-        "106": {
-            "title": "Serenata de Amor: Ciência de dados no mundo real",
-            "description": "",
-            "type": "default",
-            "speaker": {
-                "name": "Jessica Temporal",
-                "info": "Serenata de Amor: Ciência de dados no mundo real",
-                "photo": "jessica-temporal.png"
-            }
-        },
-        
-        "107": {
-            "title": "Além dos Paradigmas: dicas para escrever código PYTHONICO",
-            "description": "",
-            "type": "default",
-            "speaker": {
-                "name": "Luciano Ramalho",
-                "info": "Além dos Paradigmas: dicas para escrever código PYTHONICO",
-                "photo": "luciano-ramalho.png"
-            }
-        },
-        
-        "108": {
-            "title": "Lightning Talk (3 de 5min)",
-            "description": "",
-            "type": "default",
-            "speaker": {
-                "name": "Inscrições no local",
-                "info": "Espaço aberto para apresentações sobre qualquer assunto",
-                "photo": "avatar.png"
-            }
-        },
-        
-        "109": {
-            "title": "Coffee Break",
-            "description": "",
-            "type": "default",
-            "speaker": {
-                "name": "Coffee Break",
-                "info": "Hora da pausa para o café e guloseimas",
-                "photo": "cafe.png"
-            }
-        },
-        
-        "110": {
             "title": "Momento para networking",
             "description": "",
             "type": "default",
@@ -1211,7 +1046,194 @@
             }
         },
         
+        "96": {
+            "title": "Anitas na Estrada",
+            "description": "",
+            "type": "default",
+            "speaker": {
+                "name": "Anitas na Estrada",
+                "info": "Anitas na Estrada",
+                "photo": ""
+            }
+        },
+        
+        "97": {
+            "title": "Lightning Talk (3 de 5min)",
+            "description": "",
+            "type": "default",
+            "speaker": {
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
+            }
+        },
+        
+        "98": {
+            "title": "print('Você já ensinou Python para uma pessoa hoje?')",
+            "description": "",
+            "type": "default",
+            "speaker": {
+                "name": "Soraya Roberta",
+                "info": "print('Você já ensinou Python para uma pessoa hoje?')",
+                "photo": "Soraya.jpg"
+            }
+        },
+        
+        "99": {
+            "title": "Sistemas de Recomendação da matemática a prática",
+            "description": "",
+            "type": "default",
+            "speaker": {
+                "name": "Thais Viana",
+                "info": "Sistemas de Recomendação da matemática a prática",
+                "photo": "thais-viana.png"
+            }
+        },
+        
+        "100": {
+            "title": "Lightning Talk (1 de 5min)",
+            "description": "",
+            "type": "default",
+            "speaker": {
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
+            }
+        },
+        
+        "101": {
+            "title": "Coffee Break",
+            "description": "",
+            "type": "default",
+            "speaker": {
+                "name": "Coffee Break",
+                "info": "Hora da pausa para o café e guloseimas",
+                "photo": "cafe.png"
+            }
+        },
+        
+        "102": {
+            "title": "Lightning Talk (2 de 5min)",
+            "description": "",
+            "type": "default",
+            "speaker": {
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
+            }
+        },
+        
+        "103": {
+            "title": "Programação para jornalistas: 3 meses de experiências em uma redação",
+            "description": "",
+            "type": "default",
+            "speaker": {
+                "name": "Judite Cypreste e Fernando Masanori",
+                "info": "Programação para jornalistas: 3 meses de experiências em uma redação",
+                "photo": "judite-cypreste.png"
+            }
+        },
+        
+        "104": {
+            "title": "Python & Kivy: Inclusão Mobile",
+            "description": "hildeberto@gmail.com",
+            "type": "default",
+            "speaker": {
+                "name": "Hildeberto Magalhães",
+                "info": "Graduado em Ciência da Computação, MBA em Gestão de Projetos, experiência profissional desde 1988 com desenvolvimento de sistemas. Considera Python a linguagem do novo século.",
+                "photo": "hilam.png"
+            }
+        },
+        
+        "105": {
+            "title": "Lightning Talk (2 de 5min)",
+            "description": "",
+            "type": "default",
+            "speaker": {
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
+            }
+        },
+        
+        "106": {
+            "title": "Almoço",
+            "description": "",
+            "type": "default",
+            "speaker": {
+                "name": "Almoço",
+                "info": "Parada para recuperar o fôlego e forrar a barriga",
+                "photo": "almoco.jpg"
+            }
+        },
+        
+        "107": {
+            "title": "[Palestra 34]",
+            "description": "",
+            "type": "default",
+            "speaker": {
+                "name": "[Palestra 34]",
+                "info": "[Palestra 34]",
+                "photo": "avatar.png"
+            }
+        },
+        
+        "108": {
+            "title": "Serenata de Amor: Ciência de dados no mundo real",
+            "description": "",
+            "type": "default",
+            "speaker": {
+                "name": "Jessica Temporal",
+                "info": "Serenata de Amor: Ciência de dados no mundo real",
+                "photo": "jessica-temporal.png"
+            }
+        },
+        
+        "109": {
+            "title": "Além dos Paradigmas: dicas para escrever código PYTHONICO",
+            "description": "",
+            "type": "default",
+            "speaker": {
+                "name": "Luciano Ramalho",
+                "info": "Além dos Paradigmas: dicas para escrever código PYTHONICO",
+                "photo": "luciano-ramalho.png"
+            }
+        },
+        
+        "110": {
+            "title": "Lightning Talk (3 de 5min)",
+            "description": "",
+            "type": "default",
+            "speaker": {
+                "name": "Inscrições no local",
+                "info": "Espaço aberto para apresentações sobre qualquer assunto",
+                "photo": "avatar.png"
+            }
+        },
+        
         "111": {
+            "title": "Coffee Break",
+            "description": "",
+            "type": "default",
+            "speaker": {
+                "name": "Coffee Break",
+                "info": "Hora da pausa para o café e guloseimas",
+                "photo": "cafe.png"
+            }
+        },
+        
+        "112": {
+            "title": "Momento para networking",
+            "description": "",
+            "type": "default",
+            "speaker": {
+                "name": "Momento para networking",
+                "info": "Pausa para conhecer quem você não conheceu ainda",
+                "photo": ""
+            }
+        },
+        
+        "113": {
             "title": "[Painel]",
             "description": "",
             "type": "default",
@@ -1222,7 +1244,7 @@
             }
         },
         
-        "112": {
+        "114": {
             "title": "Cerimônia de Encerramento",
             "description": "",
             "type": "default",

@@ -753,11 +753,27 @@
           "start_time": "17:10",
           "end_time": "17:45",
           "track": "10"
+        },
+        
+        {
+          "talk_id": "95",
+          "title": "Momento para networking",
+          "start_time": "17:45",
+          "end_time": "18:00",
+          "track": "12"
+        },
+        
+        {
+          "talk_id": "96",
+          "title": "Anitas na Estrada",
+          "start_time": "18:00",
+          "end_time": "20:00",
+          "track": "12"
         }
          ], 
         "2018-05-26": [
         {
-          "talk_id": "95",
+          "talk_id": "97",
           "title": "Lightning Talk (3 de 5min)",
           "start_time": "08:45",
           "end_time": "09:00",
@@ -765,7 +781,7 @@
         },
         
         {
-          "talk_id": "96",
+          "talk_id": "98",
           "title": "print('Você já ensinou Python para uma pessoa hoje?')",
           "start_time": "09:00",
           "end_time": "09:35",
@@ -773,7 +789,7 @@
         },
         
         {
-          "talk_id": "97",
+          "talk_id": "99",
           "title": "Sistemas de Recomendação da matemática a prática",
           "start_time": "09:35",
           "end_time": "10:10",
@@ -781,7 +797,7 @@
         },
         
         {
-          "talk_id": "98",
+          "talk_id": "100",
           "title": "Lightning Talk (1 de 5min)",
           "start_time": "10:10",
           "end_time": "10:15",
@@ -789,7 +805,7 @@
         },
         
         {
-          "talk_id": "99",
+          "talk_id": "101",
           "title": "Coffee Break",
           "start_time": "10:15",
           "end_time": "10:30",
@@ -797,7 +813,7 @@
         },
         
         {
-          "talk_id": "100",
+          "talk_id": "102",
           "title": "Lightning Talk (2 de 5min)",
           "start_time": "10:30",
           "end_time": "10:40",
@@ -805,7 +821,7 @@
         },
         
         {
-          "talk_id": "101",
+          "talk_id": "103",
           "title": "Programação para jornalistas: 3 meses de experiências em uma redação",
           "start_time": "10:40",
           "end_time": "11:15",
@@ -813,7 +829,7 @@
         },
         
         {
-          "talk_id": "102",
+          "talk_id": "104",
           "title": "Python & Kivy: Inclusão Mobile",
           "start_time": "11:15",
           "end_time": "11:50",
@@ -821,7 +837,7 @@
         },
         
         {
-          "talk_id": "103",
+          "talk_id": "105",
           "title": "Lightning Talk (2 de 5min)",
           "start_time": "11:50",
           "end_time": "12:00",
@@ -829,7 +845,7 @@
         },
         
         {
-          "talk_id": "104",
+          "talk_id": "106",
           "title": "Almoço",
           "start_time": "12:00",
           "end_time": "13:30",
@@ -837,7 +853,7 @@
         },
         
         {
-          "talk_id": "105",
+          "talk_id": "107",
           "title": "[Palestra 34]",
           "start_time": "13:30",
           "end_time": "14:05",
@@ -845,7 +861,7 @@
         },
         
         {
-          "talk_id": "106",
+          "talk_id": "108",
           "title": "Serenata de Amor: Ciência de dados no mundo real",
           "start_time": "14:05",
           "end_time": "14:40",
@@ -853,7 +869,7 @@
         },
         
         {
-          "talk_id": "107",
+          "talk_id": "109",
           "title": "Além dos Paradigmas: dicas para escrever código PYTHONICO",
           "start_time": "14:40",
           "end_time": "15:15",
@@ -861,7 +877,7 @@
         },
         
         {
-          "talk_id": "108",
+          "talk_id": "110",
           "title": "Lightning Talk (3 de 5min)",
           "start_time": "15:15",
           "end_time": "15:30",
@@ -869,7 +885,7 @@
         },
         
         {
-          "talk_id": "109",
+          "talk_id": "111",
           "title": "Coffee Break",
           "start_time": "15:30",
           "end_time": "15:45",
@@ -877,7 +893,7 @@
         },
         
         {
-          "talk_id": "110",
+          "talk_id": "112",
           "title": "Momento para networking",
           "start_time": "15:45",
           "end_time": "16:00",
@@ -885,7 +901,7 @@
         },
         
         {
-          "talk_id": "111",
+          "talk_id": "113",
           "title": "[Painel]",
           "start_time": "16:00",
           "end_time": "17:00",
@@ -893,7 +909,7 @@
         },
         
         {
-          "talk_id": "112",
+          "talk_id": "114",
           "title": "Cerimônia de Encerramento",
           "start_time": "17:00",
           "end_time": "18:00",
