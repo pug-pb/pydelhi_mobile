@@ -10,7 +10,7 @@ sudo dpkg --add-architecture i386
 sudo apt install libncurses5:i386 libstdc++6:i386 libgtk2.0-0:i386 \
 libpangox-1.0-0:i386 libpangoxft-1.0-0:i386 libidn11:i386 zlib1g:i386
 
-sudo apt install openjdk-8-jdk ccache adb 
+sudo apt install openjdk-8-jdk ccache adb apksigner
 
 sudo apt install -y build-essential git python3-dev libssl-dev \
 libcups2-dev libcairo2-dev libsdl2-dev libsdl2-image-dev \

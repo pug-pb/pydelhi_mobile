@@ -9,6 +9,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 .buildozer/
+pyne2018.jks
 env/
 cache/
 build/
