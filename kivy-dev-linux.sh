@@ -7,12 +7,13 @@ clear
 ## system dependencies
 
 sudo dpkg --add-architecture i386
-sudo apt install libncurses5:i386 libstdc++6:i386 libgtk2.0-0:i386 \
+sudo apt install -y libncurses5:i386 libstdc++6:i386 libgtk2.0-0:i386 \
 libpangox-1.0-0:i386 libpangoxft-1.0-0:i386 libidn11:i386 zlib1g:i386
 
-sudo apt install openjdk-8-jdk ccache adb apksigner
+sudo apt install -y openjdk-8-jdk
+sudo apt install -y ccache adb apksigner
 
-sudo apt install -y build-essential git python3-dev libssl-dev \
+sudo apt install -y build-essential git python-dev python3-dev libssl-dev \
 libcups2-dev libcairo2-dev libsdl2-dev libsdl2-image-dev \
 libsdl2-mixer-dev libsdl2-ttf-dev libportmidi-dev libswscale-dev \
 libavformat-dev libavcodec-dev zlib1g-dev ffmpeg libsmpeg-dev \
@@ -23,15 +24,18 @@ python-lxml python3-lxml xvfb
 read -p "Press enter to continue"
 
 clear
-# get and install miniconda (not use sudo)
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+# get and install miniconda if not exists (not use sudo)
+if [ ! -f ./Miniconda3-latest-Linux-x86_64.sh ]; then
+    wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+fi
+
 chmod +x Miniconda3-latest-Linux-x86_64.sh
 # run installer, agree, set default location and update PATH in .bashrc
 ./Miniconda3-latest-Linux-x86_64.sh
 
 # update conda and create kivy virtualenv
 cd
-source .bashrc
+~./.bashrc
 conda update --all
 conda create -n kivy3 pip setuptools requests
 
