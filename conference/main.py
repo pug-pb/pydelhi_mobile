@@ -15,6 +15,7 @@ from kivy.app import App
 from kivy.properties import StringProperty
 
 from utils.colors import *
+import json
 
 __version__ = '1.0.0'
 
@@ -54,6 +55,13 @@ class ConferenceApp(App):
     def build(self):
         self.script_path = script_path
         self.icon = 'data/icon.png'
+        # self.db = 'data/mytrack.json'
+        # mytrack database
+        # create if not exists
+        #if self.db:
+        #    with open(self.db, 'r') as f:
+        #        self.my_track = json.load(f)
+
         # Here we build our own navigation higherarchy.
         # So we can decide what to do when the back
         # button is pressed.
@@ -133,6 +141,11 @@ class ConferenceApp(App):
 
         return getattr(self, module_path)
 
+    def add_my_track(self, talk_id):
+        self.my_track.update({"id": talk_id})
+        with open(self.db, 'w') as f:
+            json.dump(self.my_track, f)
+        print(f"cheguei aqui para incluir a trilha de ID {talk_id}")
 
 # Check if app is started as main and only then instantiate the App class.
 if __name__ == '__main__':
