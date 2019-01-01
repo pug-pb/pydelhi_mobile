@@ -39,6 +39,9 @@ class NavigationScreen(Screen):
                 text: 'Programação'
                 on_released: app.load_screen('ScreenSchedule', manager=app.navigation_manager)
             MenuButton
+                text: 'Minha trilha'
+                on_released: app.load_screen('ScreenMyTrack', manager=app.navigation_manager)
+            MenuButton
                 text: 'Patrocinadores'
                 on_released: app.load_screen('ScreenSponsor', manager=app.navigation_manager)
             MenuButton
